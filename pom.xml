@@ -17,4 +17,27 @@
 
     <packaging>pom</packaging>
 
+    <organization>
+        <name>dela</name>
+    </organization>
+
+    <licenses>
+        <license>
+            <name>GNU general public license v3.0</name>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Haris Delalic</name>
+            <organization>dela</organization>
+        </developer>
+    </developers>
+
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <org.mapstruct.version>1.3.1.Final</org.mapstruct.version>
+    </properties>
 </project>
